@@ -1,0 +1,7 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small defaults */
+html, body, #__next { height: 100%; }
+body { @apply bg-slate-50 text-gray-900; }
